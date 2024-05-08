@@ -1,0 +1,23 @@
+#define SCREEN_DC 0
+#define SCREEN_CS 10
+#define SCREEN_SCK 6
+#define SCREEN_MOSI 7
+#define SCREEN_MISO GFX_NOT_DEFINED
+
+#define SCREEN_RST 5
+
+#define SCREEN_WIDTH 240
+#define SCREEN_HEIGHT 240
+
+#define SCREEN_BACKLIGHT 4
+
+
+
+
+#define TFCARD_SCK 2
+#define TFCARD_MOSI 21
+#define TFCARD_MISO 3
+#define TFCARD_CS 20
+
+//通道设置
+#define LEDC_CHANNEL_BACKLIGHT 1

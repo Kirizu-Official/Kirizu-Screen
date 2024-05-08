@@ -1,0 +1,11 @@
+#include <Arduino.h>
+#include <WiFi.h>
+#include <WebServer.h>
+#include <HTTPUpdate.h>
+#include <ESPmDNS.h>
+#include <esp_ota_ops.h>
+#include <ErriezCRC32.h>
+#include "tfcard.h"
+#include <uri/UriBraces.h>
+bool web_init();
+void web_loop();
